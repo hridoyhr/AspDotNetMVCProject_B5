@@ -20,17 +20,17 @@ namespace FirstDemo
        public Startup(IWebHostEnvironment env)
         {
             var builder = new ConfigurationBuilder()
-            .SetBasePath(env.ContentRootPath)
+            .SetBasePath(env.ContentRootPath) 
             .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
             .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
             .AddEnvironmentVariables();
 
             WebHostEnvironment = env; 
 
-            Configuration = builder.Build();
+            MyProperty = builder.Build();
         }
 
-        public IConfiguration Configuration { get; }
+        public IConfiguration MyProperty { get; }
         public IWebHostEnvironment WebHostEnvironment { get; set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -38,7 +38,7 @@ namespace FirstDemo
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    MyProperty.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
