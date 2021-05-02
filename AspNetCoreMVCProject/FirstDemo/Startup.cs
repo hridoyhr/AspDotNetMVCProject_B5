@@ -1,4 +1,5 @@
 using FirstDemo.Data;
+using FirstDemo.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -18,7 +19,7 @@ namespace FirstDemo
     public class Startup
     {
        public Startup(IWebHostEnvironment env)
-        {
+       {
             var builder = new ConfigurationBuilder()
             .SetBasePath(env.ContentRootPath) 
             .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
@@ -28,7 +29,7 @@ namespace FirstDemo
             WebHostEnvironment = env;
 
             Configuration = builder.Build();
-        }
+       }
 
         public IConfiguration Configuration { get; }
         public IWebHostEnvironment WebHostEnvironment { get; set; }
@@ -43,10 +44,14 @@ namespace FirstDemo
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            services.AddControllersWithViews();
 
             //smtp mail configuration
             services.Configure<SmtpConfiguration>(Configuration.GetSection("Smtp"));
+
+            services.AddControllersWithViews();
+            services.AddHttpContextAccessor();
+            services.AddRazorPages();
+            services.AddDatabaseDeveloperPageExceptionFilter();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -65,7 +70,7 @@ namespace FirstDemo
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseSession();
             app.UseRouting();
 
             app.UseAuthentication();
