@@ -18,3 +18,4 @@ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.
    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
    at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
    at FirstDemo.Program.Main(String[] args) in G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\Program.cs:line 32
+2021-05-02 14:54:09.752 +06:00 [INF] Application Starting Up
