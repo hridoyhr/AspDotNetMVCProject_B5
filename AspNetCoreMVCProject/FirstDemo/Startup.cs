@@ -79,6 +79,11 @@ namespace FirstDemo
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
+                        name: "areas",
+                        pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{Id?}"
+                    );
+
+                endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Dashboard}/{action=Summary}/{id?}");
                 endpoints.MapRazorPages();
