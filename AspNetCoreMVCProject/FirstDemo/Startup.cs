@@ -25,12 +25,12 @@ namespace FirstDemo
             .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
             .AddEnvironmentVariables();
 
-            WebHostEnvironment = env; 
+            WebHostEnvironment = env;
 
-            MyProperty = builder.Build();
+            Configuration = builder.Build();
         }
 
-        public IConfiguration MyProperty { get; }
+        public IConfiguration Configuration { get; }
         public IWebHostEnvironment WebHostEnvironment { get; set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -38,12 +38,15 @@ namespace FirstDemo
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
-                    MyProperty.GetConnectionString("DefaultConnection")));
+                    Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
+
+            //smtp mail configuration
+            services.Configure<SmtpConfiguration>(Configuration.GetSection("Smtp"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

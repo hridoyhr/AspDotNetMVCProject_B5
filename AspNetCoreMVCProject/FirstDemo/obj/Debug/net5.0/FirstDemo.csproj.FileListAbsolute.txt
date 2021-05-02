@@ -437,4 +437,4 @@ G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkil
 G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\obj\Debug\net5.0\FirstDemo.pdb
 G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\obj\Debug\net5.0\FirstDemo.genruntimeconfig.cache
 G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\obj\Debug\net5.0\Razor\Views\Dashboard\Summary.cshtml.g.cs
-G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\obj\Debug\net5.0\Razor\Views\Shared\_Summary.cshtml.g.cs
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\obj\Debug\net5.0\Razor\Views\Shared\_LayoutSummary.cshtml.g.cs
