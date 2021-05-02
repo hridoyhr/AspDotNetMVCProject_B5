@@ -438,3 +438,12 @@ G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkil
 G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\obj\Debug\net5.0\FirstDemo.genruntimeconfig.cache
 G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\obj\Debug\net5.0\Razor\Views\Dashboard\Summary.cshtml.g.cs
 G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\obj\Debug\net5.0\Razor\Views\Shared\_LayoutSummary.cshtml.g.cs
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\bin\Debug\net5.0\Serilog.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\bin\Debug\net5.0\Serilog.AspNetCore.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\bin\Debug\net5.0\Serilog.Sinks.File.dll
