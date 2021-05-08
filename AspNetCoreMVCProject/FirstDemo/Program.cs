@@ -30,7 +30,6 @@ namespace FirstDemo
             {
                 Log.Information("Application Starting Up");
                 CreateHostBuilder(args).Build().Run();
-                Log.Information("Application Started Successfully");
             }
             catch(Exception ex)
             {
