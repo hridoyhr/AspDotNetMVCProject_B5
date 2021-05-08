@@ -1,5 +1,8 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using FirstDemo.Data;
 using FirstDemo.Models;
+using FirstDemo.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -33,6 +36,13 @@ namespace FirstDemo
 
         public IConfiguration Configuration { get; }
         public IWebHostEnvironment WebHostEnvironment { get; set; }
+        //Autofa DI
+        public static ILifetimeScope AutofacContainer { get; set; }
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            builder.RegisterModule(new WebModule());
+        }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -63,6 +73,9 @@ namespace FirstDemo
                 options.Cookie.IsEssential = true;
             });
 
+            //Add build in DI
+            services.AddTransient<IDriverService, LocalDrive>();
+
             //smtp mail configuration
             services.Configure<SmtpConfiguration>(Configuration.GetSection("Smtp"));
 
@@ -75,6 +88,9 @@ namespace FirstDemo
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //Autofac DI
+            AutofacContainer = app.ApplicationServices.GetAutofacRoot();
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
