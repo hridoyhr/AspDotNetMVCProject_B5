@@ -208,3 +208,4 @@ System.InvalidOperationException: StatusCode cannot be set because the response 
    at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
    at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
    at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+2021-06-02 23:32:43.178 +06:00 [INF] Application Starting Up
