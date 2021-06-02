@@ -450,3 +450,7 @@ G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkil
 G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\bin\Debug\net5.0\Autofac.dll
 G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
 G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\obj\Debug\net5.0\Razor\Views\Shared\CustomPartialView\_FooterLinksPartial.cshtml.g.cs
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\obj\Debug\net5.0\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
+G:\All C# File\Dev Skill All Course\Asp.NetCoreMvc-AllFile-B5\SourceCode\DevSkill_Project\AspDotNetMVCProject_B5\AspNetCoreMVCProject\FirstDemo\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutAdmin.cshtml.g.cs
