@@ -13,5 +13,10 @@ namespace FirstDemo.Areas.Admin.Controllers
         {
             return View();
         }
+
+        public IActionResult Form()
+        {
+            return View();
+        }
     }
 }
