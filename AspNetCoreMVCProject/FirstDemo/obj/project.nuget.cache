@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y8C9jk1sZ5dYJ4HbcD/Ga4E6T9q6PzOR3Rt3Iaom7loQMFZE1siQHtuBo+HFarlW2iWYTmZK6JCOFIAn4srXOA==",
+  "dgSpecHash": "ydDQ55eKiSF+6QzQM5kZszbwHkCGcl4ucEOowea7+YQngj+/1XffkXtGgL3UN6UJF7YIkd18krQmL7jqbHVYnw==",
   "success": true,
   "projectFilePath": "G:\\All C# File\\Dev Skill All Course\\Asp.NetCoreMvc-AllFile-B5\\SourceCode\\DevSkill_Project\\AspDotNetMVCProject_B5\\AspNetCoreMVCProject\\FirstDemo\\FirstDemo.csproj",
   "expectedPackageFiles": [
@@ -61,6 +61,7 @@
     "C:\\Users\\Hridoy\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.6.0\\microsoft.identitymodel.tokens.5.6.0.nupkg.sha512",
     "C:\\Users\\Hridoy\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Hridoy\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\Hridoy\\.nuget\\packages\\microsoft.typescript.msbuild\\4.3.2\\microsoft.typescript.msbuild.4.3.2.nupkg.sha512",
     "C:\\Users\\Hridoy\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\5.0.2\\microsoft.visualstudio.web.codegeneration.5.0.2.nupkg.sha512",
     "C:\\Users\\Hridoy\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\5.0.2\\microsoft.visualstudio.web.codegeneration.contracts.5.0.2.nupkg.sha512",
     "C:\\Users\\Hridoy\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\5.0.2\\microsoft.visualstudio.web.codegeneration.core.5.0.2.nupkg.sha512",
