@@ -1,1 +1,2 @@
-﻿let list: Array<number> = [1, 2, 3, 4];
+﻿let message: string = 'Hello World';
+console.log(message);
