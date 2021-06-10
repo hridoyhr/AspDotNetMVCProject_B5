@@ -2,5 +2,9 @@
   {
     "outputFile": "wwwroot/scss/demo.css",
     "inputFile": "wwwroot/scss/demo.scss"
+  },
+  {
+    "outputFile": "wwwroot/typescripts/demo.es5.js",
+    "inputFile": "wwwroot/typescripts/demo.js"
   }
 ]
