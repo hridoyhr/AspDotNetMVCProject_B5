@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[5.0.2, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[4.1.0, )"

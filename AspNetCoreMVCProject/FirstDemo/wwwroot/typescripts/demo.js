@@ -1,2 +1,3 @@
-var list = [1, 2, 3, 4];
+var message = 'Hello World';
+console.log(message);
 //# sourceMappingURL=demo.js.map
