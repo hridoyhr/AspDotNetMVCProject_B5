@@ -9,15 +9,24 @@ namespace AdoNetExample
         {
             using SqlConnection connection = new SqlConnection();
             connection.ConnectionString = "Server=DESKTOP-CPJOTGU\\SQLEXPRESS;Database=AspnetCoreB5;User Id=aspnetCoreB5;Password=1234;";
+
+            var sql = "insert into student(name, weight) values('Shakil', 49)";
+            writeOperation(sql, connection);
+
+            Console.WriteLine("Successfully");
+        }
+
+        static void writeOperation(string sql, SqlConnection connection)
+        {
             if (connection.State == System.Data.ConnectionState.Closed)
                 connection.Open();
 
             using SqlCommand command = new SqlCommand();
-            command.CommandText = "delete student where weight = 45";
+            command.CommandText = sql;
             command.Connection = connection;
-            command.ExecuteNonQuery();
 
-            Console.WriteLine("Successfuly");
+            command.ExecuteNonQuery();
         }
+        
     }
 }
